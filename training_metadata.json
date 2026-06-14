@@ -1,0 +1,18 @@
+{
+  "best_f1": 0.885632183908046,
+  "num_epochs": 32,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingWarmRestarts",
+  "model_parameters": 471138,
+  "trainable_parameters": 471138,
+  "architecture": "FaceAntiDeepfakeNet",
+  "unique_components": [
+    "DepthwiseSeparableConv",
+    "SqueezeExcitationBlock",
+    "ResidualConnections"
+  ],
+  "final_train_f1": 0.8912600244664945,
+  "final_val_f1": 0.885632183908046
+}
